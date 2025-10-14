@@ -1,0 +1,34 @@
+/* ESTILO GERAL */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* TITULO */
+
+h1 {
+    color: white;
+    margin-top: 30px;
+    text-align: center;
+}
+
+/* CONTAINER PRINCIPAL */
+
+.container {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px;
+    padding: 30px;
+    margin-top: 20px;
+    width: 90%;
+    max-width: 600px;
+}
+
