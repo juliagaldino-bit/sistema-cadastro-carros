@@ -32,3 +32,108 @@ h1 {
     max-width: 600px;
 }
 
+/* FORMULÁRIO */ 
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+/* CAMPO DE ENTRADA */
+form input {
+    flex: 1 1 45%;
+    min-width: 45%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1em;
+}
+
+/* BOTÃO DE FORMULÁRIO */
+form button {
+    flex: 1 1 100%; 
+    padding: 12px;
+    background: #1e3c72;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 8px;
+    transition: background 0.3s ease;
+}
+
+/* EFEITO HOVER */
+
+form button:hover {
+    background: #2a5298;
+}
+
+/* TABELA */
+table {
+    margin-top: 30px;
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+/* CELULAS DA TABELA */
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid #ccc;
+}
+
+/* CABEÇALHO DA TABELA */
+th {
+    background-color: #1e3c72;
+    color: white;
+}
+
+/* LINHA DE "NENHUM DADO" */
+
+.no-data {
+    text-align: center;
+    color: #777;
+    padding: 15px;
+}
+
+/* CONTAINER - TELA DE LOGIN */
+
+.container-login {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 29vh;
+width: 300px;
+margin-top: 270px;
+background-color: #f0f0f0;
+border: 2px solid #0077cc;
+border-radius: 20px;
+padding: 50px;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    height: 18vh;
+    width: 50vh;
+    padding: 20%;
+    border: 2px solid #0077cc;
+    border-radius: 15px;
+    background-color: #ffffff;
+}
+
+.h1 {
+    color: #1e3c72;
+}
+
+.input-login, input-senha {
+    padding: 10px;
+    border: 2x solid #0077cc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+
